@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Of Answer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        const status = ["Yes","No"];
+        const content = document.getElementById("content");
+        if(content){
+            content.innerHTML = status[Math.floor(Math.random() * status.length)];
+        }
+    </script>
+</body>
+</html>
